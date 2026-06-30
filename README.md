@@ -1,6 +1,7 @@
 # 💳 Credit Scoring Model
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Deployment-Streamlit-success?style=for-the-badge">
   <img src="https://img.shields.io/badge/Machine%20Learning-Random%20Forest-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Python-3.10-yellow?style=for-the-badge">
   <img src="https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge">
@@ -16,7 +17,12 @@ The objective is to build a Machine Learning model capable of predicting whether
 The project also includes a **Streamlit web application** that allows users to enter customer information and receive real-time credit risk predictions.
 
 ---
+## 🎥 Live Application
 
+🌐 **Streamlit App**
+
+https://codealphacreditscoringmodel-d4qwv9hvs2uctrqs98kk24.streamlit.app/
+---
 ## 🎯 Objectives
 
 - Perform data preprocessing on the German Credit Dataset.
@@ -44,11 +50,13 @@ The project also includes a **Streamlit web application** that allows users to e
 ## ⚙️ Technologies Used
 
 - Python
+- Streamlit
 - Pandas
 - NumPy
 - Scikit-learn
 - Joblib
-- Streamlit
+- Jupyter Notebook
+- Git & GitHub
 
 ---
 
@@ -103,39 +111,50 @@ CodeAlpha_CreditScoringModel/
 │     └── scaler.pkl
 
 └── images/
-      ├── home.png
+      ├── home_1.png
+      ├── home_2.png
+      ├── home_3.png
       ├── creditworthy_prediction.png
       └── high_risk_prediction.png
 ```
 
 ---
-
-## 🖥️ Screenshots
+## 🖥️ Application Screenshots
 
 ### Home Page
 
-![Home](images/home.png)
+The application interface is shown below.
+
+#### Home Screen (Part 1)
+
+![Home 1](images/home_1.png)
+
+#### Home Screen (Part 2)
+
+![Home 2](images/home_2.png)
+
+#### Home Screen (Part 3)
+
+![Home 3](images/home_3.png)
 
 ---
 
-### Creditworthy Prediction
+### Prediction Results
 
-![Creditworthy](images/creditworthy_prediction.png)
+#### Creditworthy Customer
 
----
+![Creditworthy Prediction](images/creditworthy_prediction.png)
 
-### High Credit Risk Prediction
+#### High Credit Risk Customer
 
-![High Risk](images/high_risk_prediction.png)
-
----
+![High Risk Prediction](images/high_risk_prediction.png)
 
 ## ▶️ Installation
 
 Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/vatsanshika923-prog/CodeAlpha_CreditScoringModel.git
 ```
 
 Move to the project directory
@@ -158,14 +177,25 @@ streamlit run app.py
 
 ---
 
-## 🌐 Deployment
+ ## 🌐 Live Demo
 
 The application is deployed using **Streamlit Community Cloud**.
 
-After deployment, update this section with your live application link.
+🔗 **Live Application**
 
-**Live Demo:** *(Add Streamlit deployment link here)*
+https://codealphacreditscoringmodel-d4qwv9hvs2uctrqs98kk24.streamlit.app/
 
+---
+## 📌 Key Features
+
+- Interactive Streamlit Dashboard
+- Real-time Credit Risk Prediction
+- Random Forest Classification Model
+- Automatic Feature Encoding
+- Prediction Probability Display
+- Clean and User-Friendly Interface
+- Model Persistence using Joblib
+- Responsive Layout
 ---
 
 ## 📈 Future Improvements
@@ -179,14 +209,17 @@ After deployment, update this section with your live application link.
 - Docker deployment
 
 ---
-
 ## 👩‍💻 Author
 
 **Anshika Vats**
 
-B.Tech CSE (Artificial Intelligence & Machine Learning)
+B.Tech – Computer Science & Engineering (Artificial Intelligence & Machine Learning)
 
-Ajay Kumar Garg Engineering College
+Ajay Kumar Garg Engineering College (AKGEC)
+
+GitHub: https://github.com/vatsanshika923-prog
+
+LinkedIn: https://www.linkedin.com/in/anshika-vats
 
 ---
 
