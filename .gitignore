@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==============================
+# Project Specific
+# ==============================
+
+# Keep deployment model files
+models/*.pkl
+!models/best_model.pkl
+!models/scaler.pkl
+
+# Streamlit secrets
+.streamlit/secrets.toml
